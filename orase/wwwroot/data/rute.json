@@ -1,0 +1,674 @@
+{
+  "connections": [
+    {
+      "from": "al",
+      "to": "me",
+      "distance": 170
+    },
+    {
+      "from": "al",
+      "to": "gr",
+      "distance": 310
+    },
+    {
+      "from": "al",
+      "to": "mk",
+      "distance": 170
+    },
+
+    {
+      "from": "ad",
+      "to": "fr",
+      "distance": 140
+    },
+    {
+      "from": "ad",
+      "to": "es",
+      "distance": 200
+    },
+
+    {
+      "from": "at",
+      "to": "cz",
+      "distance": 290
+    },
+    {
+      "from": "at",
+      "to": "de",
+      "distance": 430
+    },
+    {
+      "from": "at",
+      "to": "hu",
+      "distance": 240
+    },
+    {
+      "from": "at",
+      "to": "it",
+      "distance": 600
+    },
+    {
+      "from": "at",
+      "to": "li",
+      "distance": 160
+    },
+    {
+      "from": "at",
+      "to": "sk",
+      "distance": 80
+    },
+    {
+      "from": "at",
+      "to": "si",
+      "distance": 280
+    },
+    {
+      "from": "at",
+      "to": "ch",
+      "distance": 730
+    },
+
+    {
+      "from": "by",
+      "to": "lv",
+      "distance": 560
+    },
+    {
+      "from": "by",
+      "to": "lt",
+      "distance": 170
+    },
+    {
+      "from": "by",
+      "to": "pl",
+      "distance": 520
+    },
+    {
+      "from": "by",
+      "to": "ru",
+      "distance": 700
+    },
+    {
+      "from": "by",
+      "to": "ua",
+      "distance": 440
+    },
+    {
+      "from": "by",
+      "to": "ru-main",
+      "distance": 720
+    },
+
+    {
+      "from": "be",
+      "to": "fr",
+      "distance": 260
+    },
+    {
+      "from": "be",
+      "to": "de",
+      "distance": 230
+    },
+    {
+      "from": "be",
+      "to": "lu",
+      "distance": 210
+    },
+    {
+      "from": "be",
+      "to": "nl",
+      "distance": 200
+    },
+
+    {
+      "from": "ba",
+      "to": "hr",
+      "distance": 400
+    },
+    {
+      "from": "ba",
+      "to": "me",
+      "distance": 170
+    },
+    {
+      "from": "ba",
+      "to": "rs",
+      "distance": 290
+    },
+
+    {
+      "from": "bg",
+      "to": "gr",
+      "distance": 490
+    },
+    {
+      "from": "bg",
+      "to": "mk",
+      "distance": 240
+    },
+    {
+      "from": "bg",
+      "to": "ro",
+      "distance": 300
+    },
+    {
+      "from": "bg",
+      "to": "rs",
+      "distance": 400
+    },
+    {
+      "from": "bg",
+      "to": "tr-main",
+      "distance": 550
+    },
+
+    {
+      "from": "hr",
+      "to": "ba",
+      "distance": 400
+    },
+    {
+      "from": "hr",
+      "to": "hu",
+      "distance": 350
+    },
+    {
+      "from": "hr",
+      "to": "me",
+      "distance": 250
+    },
+    {
+      "from": "hr",
+      "to": "rs",
+      "distance": 390
+    },
+    {
+      "from": "hr",
+      "to": "si",
+      "distance": 140
+    },
+
+    {
+      "from": "cz",
+      "to": "at",
+      "distance": 290
+    },
+    {
+      "from": "cz",
+      "to": "de",
+      "distance": 350
+    },
+    {
+      "from": "cz",
+      "to": "pl",
+      "distance": 520
+    },
+    {
+      "from": "cz",
+      "to": "sk",
+      "distance": 320
+    },
+
+    {
+      "from": "dk",
+      "to": "de",
+      "distance": 420
+    },
+    {
+      "from": "dk",
+      "to": "se",
+      "distance": 650
+    },
+
+    {
+      "from": "ee",
+      "to": "lv",
+      "distance": 310
+    },
+    {
+      "from": "ee",
+      "to": "ru-main",
+      "distance": 350
+    },
+
+    {
+      "from": "fi",
+      "to": "no",
+      "distance": 810
+    },
+    {
+      "from": "fi",
+      "to": "se",
+      "distance": 540
+    },
+    {
+      "from": "fi",
+      "to": "ru-main",
+      "distance": 440
+    },
+
+    {
+      "from": "fr",
+      "to": "ad",
+      "distance": 140
+    },
+    {
+      "from": "fr",
+      "to": "be",
+      "distance": 260
+    },
+    {
+      "from": "fr",
+      "to": "de",
+      "distance": 570
+    },
+    {
+      "from": "fr",
+      "to": "it",
+      "distance": 1100
+    },
+    {
+      "from": "fr",
+      "to": "lu",
+      "distance": 290
+    },
+    {
+      "from": "fr",
+      "to": "mc",
+      "distance": 20
+    },
+    {
+      "from": "fr",
+      "to": "es",
+      "distance": 1030
+    },
+    {
+      "from": "fr",
+      "to": "ch",
+      "distance": 490
+    },
+
+    {
+      "from": "de",
+      "to": "at",
+      "distance": 430
+    },
+    {
+      "from": "de",
+      "to": "be",
+      "distance": 230
+    },
+    {
+      "from": "de",
+      "to": "cz",
+      "distance": 350
+    },
+    {
+      "from": "de",
+      "to": "dk",
+      "distance": 420
+    },
+    {
+      "from": "de",
+      "to": "fr",
+      "distance": 570
+    },
+    {
+      "from": "de",
+      "to": "lu",
+      "distance": 200
+    },
+    {
+      "from": "de",
+      "to": "nl",
+      "distance": 360
+    },
+    {
+      "from": "de",
+      "to": "pl",
+      "distance": 570
+    },
+    {
+      "from": "de",
+      "to": "ch",
+      "distance": 500
+    },
+
+    {
+      "from": "hu",
+      "to": "at",
+      "distance": 240
+    },
+    {
+      "from": "hu",
+      "to": "hr",
+      "distance": 350
+    },
+    {
+      "from": "hu",
+      "to": "ro",
+      "distance": 460
+    },
+    {
+      "from": "hu",
+      "to": "rs",
+      "distance": 380
+    },
+    {
+      "from": "hu",
+      "to": "sk",
+      "distance": 200
+    },
+    {
+      "from": "hu",
+      "to": "si",
+      "distance": 350
+    },
+    {
+      "from": "hu",
+      "to": "ua",
+      "distance": 500
+    },
+
+    {
+      "from": "it",
+      "to": "at",
+      "distance": 600
+    },
+    {
+      "from": "it",
+      "to": "fr",
+      "distance": 1100
+    },
+    {
+      "from": "it",
+      "to": "sm",
+      "distance": 230
+    },
+    {
+      "from": "it",
+      "to": "si",
+      "distance": 470
+    },
+    {
+      "from": "it",
+      "to": "ch",
+      "distance": 700
+    },
+    {
+      "from": "li",
+      "to": "ch",
+      "distance": 13
+    },
+
+    {
+      "from": "lt",
+      "to": "lv",
+      "distance": 283
+    },
+    {
+      "from": "lt",
+      "to": "pl",
+      "distance": 341
+    },
+    
+
+    {
+      "from": "lu",
+      "to": "be",
+      "distance": 190
+    },
+    {
+      "from": "lu",
+      "to": "de",
+      "distance": 229
+    },
+    {
+      "from": "lu",
+      "to": "fr",
+      "distance": 297
+    },
+
+    {
+      "from": "mk",
+      "to": "al",
+      "distance": 173
+    },
+    {
+      "from": "mk",
+      "to": "bg",
+      "distance": 229
+    },
+    {
+      "from": "mk",
+      "to": "gr",
+      "distance": 150
+    },
+    {
+      "from": "mk",
+      "to": "rs",
+      "distance": 161
+    },
+
+    {
+      "from": "me",
+      "to": "al",
+      "distance": 207
+    },
+    {
+      "from": "me",
+      "to": "ba",
+      "distance": 241
+    },
+    {
+      "from": "me",
+      "to": "hr",
+      "distance": 171
+    },
+    {
+      "from": "me",
+      "to": "rs",
+      "distance": 253
+    },
+
+    {
+      "from": "mk",
+      "to": "al",
+      "distance": 173
+    },
+    {
+      "from": "mk",
+      "to": "gr",
+      "distance": 150
+    },
+
+    {
+      "from": "no",
+      "to": "se",
+      "distance": 325
+    },
+    {
+      "from": "no",
+      "to": "fi",
+      "distance": 750
+    },
+
+    {
+      "from": "pl",
+      "to": "cz",
+      "distance": 467
+    },
+    {
+      "from": "pl",
+      "to": "de",
+      "distance": 589
+    },
+    {
+      "from": "pl",
+      "to": "lt",
+      "distance": 341
+    },
+    {
+      "from": "pl",
+      "to": "ua",
+      "distance": 700
+    },
+
+    {
+      "from": "pt",
+      "to": "es",
+      "distance": 540
+    },
+
+    {
+      "from": "ro",
+      "to": "bg",
+      "distance": 285
+    },
+    {
+      "from": "ro",
+      "to": "hu",
+      "distance": 450
+    },
+    {
+      "from": "ro",
+      "to": "md",
+      "distance": 162
+    },
+    {
+      "from": "ro",
+      "to": "rs",
+      "distance": 510
+    },
+    {
+      "from": "ro",
+      "to": "ua",
+      "distance": 600
+    },
+
+    {
+      "from": "rs",
+      "to": "ba",
+      "distance": 297
+    },
+    {
+      "from": "rs",
+      "to": "bg",
+      "distance": 373
+    },
+    {
+      "from": "rs",
+      "to": "hu",
+      "distance": 380
+    },
+    {
+      "from": "rs",
+      "to": "mk",
+      "distance": 161
+    },
+    {
+      "from": "rs",
+      "to": "me",
+      "distance": 253
+    },
+    {
+      "from": "rs",
+      "to": "ro",
+      "distance": 510
+    },
+
+    {
+      "from": "se",
+      "to": "fi",
+      "distance": 400
+    },
+    {
+      "from": "se",
+      "to": "no",
+      "distance": 325
+    },
+
+    {
+      "from": "sk",
+      "to": "at",
+      "distance": 80
+    },
+    {
+      "from": "sk",
+      "to": "cz",
+      "distance": 160
+    },
+    {
+      "from": "sk",
+      "to": "hu",
+      "distance": 180
+    },
+    {
+      "from": "sk",
+      "to": "pl",
+      "distance": 590
+    },
+
+    {
+      "from": "si",
+      "to": "at",
+      "distance": 397
+    },
+    {
+      "from": "si",
+      "to": "hr",
+      "distance": 220
+    },
+    {
+      "from": "si",
+      "to": "it",
+      "distance": 397
+    },
+    {
+      "from": "si",
+      "to": "hu",
+      "distance": 350
+    },
+
+    {
+      "from": "ua",
+      "to": "by",
+      "distance": 435
+    },
+    {
+      "from": "ua",
+      "to": "ru-main",
+      "distance": 766
+    },
+    {
+      "from": "ua",
+      "to": "hu",
+      "distance": 800
+    },
+    {
+      "from": "ua",
+      "to": "pl",
+      "distance": 700
+    },
+    {
+      "from": "ua",
+      "to": "ro",
+      "distance": 600
+    },
+    {
+      "from": "ua",
+      "to": "rs",
+      "distance": 1150
+    },
+    {
+      "from": "ua",
+      "to": "sk",
+      "distance": 970
+    },
+    {
+      "from": "gb-gbn",
+      "to": "ie",
+      "distance": 465
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+﻿@page
+@model orase.Pages.IndexModel
+@using orase.Models
+@using System.Collections.Generic
+@{
+    var listaTari = new List<string>();
+}
+
+<link rel="~/css/site.css" />
+<script src="~/js/site.js"></script>
+
+<div>
+    <object type="image/svg+xml" data="/images/Blank_map_of_Europe_(with_disputed_regions).svg" id="europeMap">
+        Harta Europei
+    </object>
+</div>
+
+<div>
+    <p>Tara de start: <span id="startCountry">None</span></p>
+    <p>Tara de destinatie: <span id="endCountry">None</span></p>
+</div>
+
+<div class="control">
+    <label class="radio">
+        <input type="radio" name="searchMethod" value="bfs" checked /> BFS
+    </label>
+    <label class="radio">
+        <input type="radio" name="searchMethod" value="a*" /> Uniform Cost Search
+    </label>
+</div>
+
+<button class="btn" onclick="calculateRoute()">Calculeaza ruta</button>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        let objectElement = document.getElementById("europeMap");
+        let selectedCountries = [];
+
+        objectElement.addEventListener("load", function () {
+            let svgDoc = objectElement.contentDocument;
+            if (svgDoc) {
+                let countries = svgDoc.querySelectorAll("path[id]:not(#large_masses_of_water)");
+                countries.forEach(country => {
+                    country.style.cursor = "pointer";
+                    country.addEventListener("click", handleCountryClick);
+                });
+            }
+        });
+
+        function handleCountryClick(event) {
+            let country = event.target;
+            let countryId = country.id;
+
+            if (selectedCountries.includes(countryId)) {
+                selectedCountries = selectedCountries.filter(id => id !== countryId);
+                country.style.fill = "";
+                updateSelectionDisplay();
+            } else {
+                if (selectedCountries.length < 2) {
+                    selectedCountries.push(countryId);
+                    country.style.fill = "green";
+                    updateSelectionDisplay();
+                }
+            }
+        }
+
+        function updateSelectionDisplay() {
+            document.getElementById("startCountry").textContent = selectedCountries[0] || "None";
+            document.getElementById("endCountry").textContent = selectedCountries[1] || "None";
+        }
+
+        window.calculateRoute = function() {
+            if (selectedCountries.length < 2) {
+                alert("Selecteaza doua tari din harta!");
+                return;
+            }
+            let method = document.querySelector('input[name="searchMethod"]:checked').value;
+            fetch(`/Index?handler=Route&start=${selectedCountries[0]}&end=${selectedCountries[1]}&method=${method}`)
+                .then(response => response.json())
+                .then(data => {
+                    if (data.route[0] === "Nu exista ruta!") {
+                        alert("Nu exista ruta!");
+                    } else {
+                        alert("Ruta: " + data.route.join(" -> ") + "\nDistanta totala: " + data.totalDistance + " km" + "\nNumar noduri parcurse: " + data.nodesVisited + "\nTimp executie: " + data.executionTime + " ticks")
+                        colorRoute(data.route);
+                    }
+
+                    setTimeout(resetSelections, 5000);
+                })
+                .catch(error => console.error("Eroare:", error));
+        }
+
+
+        function colorRoute(route) {
+            let svgDoc = document.getElementById("europeMap").contentDocument;
+            if (svgDoc) {
+                route.forEach(countryId => {
+                    let element = svgDoc.getElementById(countryId);
+                    if (element) {
+                        element.style.fill = "yellow";
+                    }
+                });
+            }
+        }
+
+        function resetSelections() {
+            selectedCountries = [];
+            let svgDoc = document.getElementById("europeMap").contentDocument;
+            if (svgDoc) {
+                let countries = svgDoc.querySelectorAll("path[id]:not(#large_masses_of_water)");
+                countries.forEach(country => {
+                    country.style.fill = "";
+                });
+            }
+            updateSelectionDisplay();
+        }
+    });
+</script>
