@@ -79,4 +79,4 @@ UCS is a variant of Dijkstra's algorithm that uses **heuristics** to guide the s
 
 ---
 
-> 📄 Note: The entire European capital map and adjacency data were modeled and stored using a structured JSON file and the user SVG is from Wikipedia: https://en.wikipedia.org/wiki/File:Europe_Map.svg
+> 📄 Note: The entire European capital map and adjacency data were modeled and stored using a structured JSON file and the used SVG is from Wikipedia: https://en.wikipedia.org/wiki/File:Europe_Map.svg
