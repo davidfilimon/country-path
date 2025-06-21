@@ -61,7 +61,7 @@ UCS is a variant of Dijkstra's algorithm that uses **heuristics** to guide the s
 
 **Execution Time:** \~11 ms
 
-**Heuristics** used in UCS estimate the remaining distance from current country to the destionation based on approximate travel costs.
+**Heuristics** used in UCS estimate the remaining distance from current country to the destination based on approximate travel costs.
 
 ---
 
