@@ -1,4 +1,4 @@
-# 🧐 Informed vs Non-informed Algorithms: Shortest Path in Europe
+# Informed vs Non-informed Algorithms: Shortest Path in Europe
 
 ## 📂 Data Representation
 
